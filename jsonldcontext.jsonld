@@ -62,9 +62,6 @@
         "Event": {
             "@id": "schema:Event"
         },
-        "PersonalEvent": {
-            "@id": "schema:PersonalEvent"
-        },
         "Person": {
             "@id": "schema:Person"
         },
