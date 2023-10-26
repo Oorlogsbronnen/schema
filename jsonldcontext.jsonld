@@ -50,172 +50,172 @@
         "Collection": {
             "@id": "dcmit:Collection"
         },
-  "niod:genoemde": {
+ "genoemde": {
     "@id": "niod:genoemde"
   },
-  "niod:opdrachtgever": {
+  "opdrachtgever": {
     "@id": "niod:opdrachtgever"
   },
-  "niod:slachtoffer": {
+  "slachtoffer": {
     "@id": "niod:slachtoffer"
   },
-  "niod:Afgepakt": {
+  "Afgepakt": {
     "@id": "niod:Afgepakt"
   },
-  "niod:Archive": {
+  "Archive": {
     "@id": "niod:Archive"
   },
-  "niod:ArchiveFile": {
+  "ArchiveFile": {
     "@id": "niod:ArchiveFile"
   },
-  "niod:ArchiveSeries": {
+  "ArchiveSeries": {
     "@id": "niod:ArchiveSeries"
   },
-  "niod:Arresteert": {
+  "Arresteert": {
     "@id": "niod:Arresteert"
   },
-  "niod:Bekendmaking": {
+  "Bekendmaking": {
     "@id": "niod:Bekendmaking"
   },
-  "niod:Benoemd": {
+  "Benoemd": {
     "@id": "niod:Benoemd"
   },
-  "niod:BevrijdIn": {
+  "BevrijdIn": {
     "@id": "niod:BevrijdIn"
   },
-  "niod:BevrijdUit": {
+  "BevrijdUit": {
     "@id": "niod:BevrijdUit"
   },
-  "niod:Certificate": {
+  "Certificate": {
     "@id": "niod:Certificate"
   },
-  "niod:Executeert": {
+  "Executeert": {
     "@id": "niod:Executeert"
   },
-  "niod:Gearresteerd": {
+  "Gearresteerd": {
     "@id": "niod:Gearresteerd"
   },
-  "niod:Geboren": {
+  "Geboren": {
     "@id": "niod:Geboren"
   },
-  "niod:Gedecoreerd": {
+  "Gedecoreerd": {
     "@id": "niod:Gedecoreerd"
   },
-  "niod:GedwongenVerhuisd": {
+  "GedwongenVerhuisd": {
     "@id": "niod:GedwongenVerhuisd"
   },
-  "niod:Geëvacueerd": {
+  "Geëvacueerd": {
     "@id": "niod:Geëvacueerd"
   },
-  "niod:Geëxecuteerd": {
+  "Geëxecuteerd": {
     "@id": "niod:Geëxecuteerd"
   },
-  "niod:Gehuwd": {
+  "Gehuwd": {
     "@id": "niod:Gehuwd"
   },
-  "niod:Geïnterneerd": {
+  "Geïnterneerd": {
     "@id": "niod:Geïnterneerd"
   },
-  "niod:Geland": {
+  "Geland": {
     "@id": "niod:Geland"
   },
-  "niod:Geleid": {
+  "Geleid": {
     "@id": "niod:Geleid"
   },
-  "niod:Geliquideerd": {
+  "Geliquideerd": {
     "@id": "niod:Geliquideerd"
   },
-  "niod:Gepleegd": {
+  "Gepleegd": {
     "@id": "niod:Gepleegd"
   },
-  "niod:Gerecruteerd": {
+  "Gerecruteerd": {
     "@id": "niod:Gerecruteerd"
   },
-  "niod:Geroyeerd": {
+  "Geroyeerd": {
     "@id": "niod:Geroyeerd"
   },
-  "niod:Gestorven": {
+  "Gestorven": {
     "@id": "niod:Gestorven"
   },
-  "niod:Getransporteerd": {
+  "Getransporteerd": {
     "@id": "niod:Getransporteerd"
   },
-  "niod:Getroffen": {
+  "Getroffen": {
     "@id": "niod:Getroffen"
   },
-  "niod:Gevangen": {
+  "Gevangen": {
     "@id": "niod:Gevangen"
   },
-  "niod:Gevaren": {
+  "Gevaren": {
     "@id": "niod:Gevaren"
   },
-  "niod:Gevlucht": {
+  "Gevlucht": {
     "@id": "niod:Gevlucht"
   },
-  "niod:Gevochten": {
+  "Gevochten": {
     "@id": "niod:Gevochten"
   },
-  "niod:LidGeweest": {
+  "LidGeweest": {
     "@id": "niod:LidGeweest"
   },
-  "niod:Monument": {
+  "Monument": {
     "@id": "niod:Monument"
   },
-  "niod:Omgekomen": {
+  "Omgekomen": {
     "@id": "niod:Omgekomen"
   },
-  "niod:Ondergedoken": {
+  "Ondergedoken": {
     "@id": "niod:Ondergedoken"
   },
-  "niod:Ontsnapt": {
+  "Ontsnapt": {
     "@id": "niod:Ontsnapt"
   },
-  "niod:Opgepakt": {
+  "Opgepakt": {
     "@id": "niod:Opgepakt"
   },
-  "niod:Opgericht": {
+  "Opgericht": {
     "@id": "niod:Opgericht"
   },
-  "niod:Opgeroepen": {
+  "Opgeroepen": {
     "@id": "niod:Opgeroepen"
   },
-  "niod:Opgevangen": {
+  "Opgevangen": {
     "@id": "niod:Opgevangen"
   },
-  "niod:OpPadGegaan": {
+  "OpPadGegaan": {
     "@id": "niod:OpPadGegaan"
   },
-  "niod:Overleden": {
+  "Overleden": {
     "@id": "niod:Overleden"
   },
-  "niod:Rights": {
+  "Rights": {
     "@id": "niod:Rights"
   },
-  "niod:Teruggekeerd": {
+  "Teruggekeerd": {
     "@id": "niod:Teruggekeerd"
   },
-  "niod:Vermist": {
+  "Vermist": {
     "@id": "niod:Vermist"
   },
-  "niod:Veroordeeld": {
+  "Veroordeeld": {
     "@id": "niod:Veroordeeld"
   },
-  "niod:Verraadt": {
+  "Verraadt": {
     "@id": "niod:Verraadt"
   },
-  "niod:Verraden": {
+  "Verraden": {
     "@id": "niod:Verraden"
   },
-  "niod:Vertrokken": {
+  "Vertrokken": {
     "@id": "niod:Vertrokken"
   },
-  "niod:Vrijgelaten": {
+  "Vrijgelaten": {
     "@id": "niod:Vrijgelaten"
   },
-  "niod:Vrijgesproken": {
+  "Vrijgesproken": {
     "@id": "niod:Vrijgesproken"
   },
-  "niod:Vrijgesteld": {
+  "Vrijgesteld": {
     "@id": "niod:Vrijgesteld"
   },
         "Entity": {
