@@ -6,14 +6,73 @@
         "schema": "http://schema.org/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "dc": "http://purl.org/dc/elements/1.1/",
+        "dcmit": "http://purl.org/dc/dcmitype/",
+
+        "contributor": {
+            "@id": "dc:contributor"
+        },
+        "creator": {
+            "@id": "dc:creator"
+        },
+        "date": {
+            "@id": "dc:date"
+        },
+        "description": {
+            "@id": "dc:description"
+        },
+        "format": {
+            "@id": "dc:format"
+        },
+        "identifier": {
+            "@id": "dc:identifier"
+        },
+        "language": {
+            "@id": "dc:language"
+        },
+        "publisher": {
+            "@id": "dc:publisher"
+        },
+        "rights": {
+            "@id": "dc:rights"
+        },
+        "subject": {
+            "@id": "dc:subject"
+        },
+        "source": {
+            "@id": "dc:source"
+        },
+        "title": {
+            "@id": "dc:title"
+        },
+        "type": {
+            "@id": "dc:type"
+        },
+        "Collection": {
+            "@id": "dcmit:Collection"
+        },
+        "Entity": {
+            "@id": "prov:Entity"
+        },
+        "wasDerivedFrom": {
+            "@id": "prov:wasDerivedFrom"
+        },
+        "type": {
+            "@id": "rdf:type"
+        },
         "Event": {
             "@id": "schema:Event"
+        },
+        "PersonalEvent": {
+            "@id": "schema:PersonalEvent"
         },
         "Person": {
             "@id": "schema:Person"
         },
         "Place": {
             "@id": "schema:Place"
+        },
+        "Residence": {
+            "@id": "schema:Residence"
         },
         "Organization": {
             "@id": "schema:Organization"
@@ -51,23 +110,20 @@
         "Dataset": {
             "@id": "schema:Dataset"
         },
-        "Entity": {
-            "@id": "prov:Entity"
-        },
-        "sameAs": {
-            "@id": "schema:sameAs"
-        },
-        "wasDerivedFrom": {
-            "@id": "prov:wasDerivedFrom"
-        },
-        "type": {
-            "@id": "rdf:type"
-        },
         "about": {
             "@id": "schema:about"
         },
+        "abstract": {
+            "@id": "schema:abstract"
+        },
         "actor": {
             "@id": "schema:actor"
+        },
+        "address": {
+            "@id": "schema:address"
+        },
+        "addressLocality": {
+            "@id": "schema:addressLocality"
         },
         "additionalType": {
             "@id": "schema:additionalType"
@@ -81,17 +137,26 @@
         "birthPlace": {
             "@id": "schema:birthPlace"
         },
+        "caption": {
+            "@id": "schema:caption"
+        },
         "citation": {
             "@id": "schema:citation"
         },
         "contentLocation": {
             "@id": "schema:contentLocation"
         },
+        "contentUrl": {
+            "@id": "schema:contentUrl"
+        },
         "contributor": {
             "@id": "schema:contributor"
         },
         "creator": {
             "@id": "schema:creator"
+        },
+        "date": {
+            "@id": "schema:date"
         },
         "dateCreated": {
             "@id": "schema:dateCreated"
@@ -120,14 +185,17 @@
         "givenName": {
             "@id": "schema:givenName"
         },
+        "homeLocation": {
+            "@id": "schema:homeLocation"
+        },
         "identifier": {
             "@id": "schema:identifier"
         },
+        "inLanguage": {
+            "@id": "schema:inLanguage"
+        },
         "image": {
             "@id": "schema:image"
-        },
-        "imageCaption": {
-            "@id": "schema:imageCaption"
         },
         "isPartOf": {
             "@id": "schema:isPartOf"
@@ -150,14 +218,11 @@
         "longitude": {
             "@id": "schema:longitude"
         },
-        "mainEntityOfPage": {
-            "@id": "schema:mainEntityOfPage"
+        "maintainer": {
+            "@id": "schema:maintainer"
         },
         "material": {
             "@id": "schema:material"
-        },
-        "member": {
-            "@id": "schema:member"
         },
         "memberOf": {
             "@id": "schema:memberOf"
@@ -165,20 +230,14 @@
         "name": {
             "@id": "schema:name"
         },
-        "parent": {
-            "@id": "schema:parent"
-        },
         "position": {
             "@id": "schema:position"
-        },
-        "provider": {
-            "@id": "schema:provider"
         },
         "publisher": {
             "@id": "schema:publisher"
         },
-        "spouse": {
-            "@id": "schema:spouse"
+        "sameAs": {
+            "@id": "schema:sameAs"
         },
         "startDate": {
             "@id": "schema:startDate"
@@ -197,9 +256,6 @@
         },
         "url": {
             "@id": "schema:url"
-        },
-        "contentUrl": {
-            "@id": "schema:contentUrl"
         }
     }
 }
