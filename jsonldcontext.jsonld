@@ -50,6 +50,174 @@
         "Collection": {
             "@id": "dcmit:Collection"
         },
+  "niod:genoemde": {
+    "@id": "niod:genoemde"
+  },
+  "niod:opdrachtgever": {
+    "@id": "niod:opdrachtgever"
+  },
+  "niod:slachtoffer": {
+    "@id": "niod:slachtoffer"
+  },
+  "niod:Afgepakt": {
+    "@id": "niod:Afgepakt"
+  },
+  "niod:Archive": {
+    "@id": "niod:Archive"
+  },
+  "niod:ArchiveFile": {
+    "@id": "niod:ArchiveFile"
+  },
+  "niod:ArchiveSeries": {
+    "@id": "niod:ArchiveSeries"
+  },
+  "niod:Arresteert": {
+    "@id": "niod:Arresteert"
+  },
+  "niod:Bekendmaking": {
+    "@id": "niod:Bekendmaking"
+  },
+  "niod:Benoemd": {
+    "@id": "niod:Benoemd"
+  },
+  "niod:BevrijdIn": {
+    "@id": "niod:BevrijdIn"
+  },
+  "niod:BevrijdUit": {
+    "@id": "niod:BevrijdUit"
+  },
+  "niod:Certificate": {
+    "@id": "niod:Certificate"
+  },
+  "niod:Executeert": {
+    "@id": "niod:Executeert"
+  },
+  "niod:Gearresteerd": {
+    "@id": "niod:Gearresteerd"
+  },
+  "niod:Geboren": {
+    "@id": "niod:Geboren"
+  },
+  "niod:Gedecoreerd": {
+    "@id": "niod:Gedecoreerd"
+  },
+  "niod:GedwongenVerhuisd": {
+    "@id": "niod:GedwongenVerhuisd"
+  },
+  "niod:Geëvacueerd": {
+    "@id": "niod:Geëvacueerd"
+  },
+  "niod:Geëxecuteerd": {
+    "@id": "niod:Geëxecuteerd"
+  },
+  "niod:Gehuwd": {
+    "@id": "niod:Gehuwd"
+  },
+  "niod:Geïnterneerd": {
+    "@id": "niod:Geïnterneerd"
+  },
+  "niod:Geland": {
+    "@id": "niod:Geland"
+  },
+  "niod:Geleid": {
+    "@id": "niod:Geleid"
+  },
+  "niod:Geliquideerd": {
+    "@id": "niod:Geliquideerd"
+  },
+  "niod:Gepleegd": {
+    "@id": "niod:Gepleegd"
+  },
+  "niod:Gerecruteerd": {
+    "@id": "niod:Gerecruteerd"
+  },
+  "niod:Geroyeerd": {
+    "@id": "niod:Geroyeerd"
+  },
+  "niod:Gestorven": {
+    "@id": "niod:Gestorven"
+  },
+  "niod:Getransporteerd": {
+    "@id": "niod:Getransporteerd"
+  },
+  "niod:Getroffen": {
+    "@id": "niod:Getroffen"
+  },
+  "niod:Gevangen": {
+    "@id": "niod:Gevangen"
+  },
+  "niod:Gevaren": {
+    "@id": "niod:Gevaren"
+  },
+  "niod:Gevlucht": {
+    "@id": "niod:Gevlucht"
+  },
+  "niod:Gevochten": {
+    "@id": "niod:Gevochten"
+  },
+  "niod:LidGeweest": {
+    "@id": "niod:LidGeweest"
+  },
+  "niod:Monument": {
+    "@id": "niod:Monument"
+  },
+  "niod:Omgekomen": {
+    "@id": "niod:Omgekomen"
+  },
+  "niod:Ondergedoken": {
+    "@id": "niod:Ondergedoken"
+  },
+  "niod:Ontsnapt": {
+    "@id": "niod:Ontsnapt"
+  },
+  "niod:Opgepakt": {
+    "@id": "niod:Opgepakt"
+  },
+  "niod:Opgericht": {
+    "@id": "niod:Opgericht"
+  },
+  "niod:Opgeroepen": {
+    "@id": "niod:Opgeroepen"
+  },
+  "niod:Opgevangen": {
+    "@id": "niod:Opgevangen"
+  },
+  "niod:OpPadGegaan": {
+    "@id": "niod:OpPadGegaan"
+  },
+  "niod:Overleden": {
+    "@id": "niod:Overleden"
+  },
+  "niod:Rights": {
+    "@id": "niod:Rights"
+  },
+  "niod:Teruggekeerd": {
+    "@id": "niod:Teruggekeerd"
+  },
+  "niod:Vermist": {
+    "@id": "niod:Vermist"
+  },
+  "niod:Veroordeeld": {
+    "@id": "niod:Veroordeeld"
+  },
+  "niod:Verraadt": {
+    "@id": "niod:Verraadt"
+  },
+  "niod:Verraden": {
+    "@id": "niod:Verraden"
+  },
+  "niod:Vertrokken": {
+    "@id": "niod:Vertrokken"
+  },
+  "niod:Vrijgelaten": {
+    "@id": "niod:Vrijgelaten"
+  },
+  "niod:Vrijgesproken": {
+    "@id": "niod:Vrijgesproken"
+  },
+  "niod:Vrijgesteld": {
+    "@id": "niod:Vrijgesteld"
+  },
         "Entity": {
             "@id": "prov:Entity"
         },
