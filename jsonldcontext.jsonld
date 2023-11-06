@@ -269,12 +269,6 @@
         "ImageObject": {
             "@id": "schema:ImageObject"
         },
-        "ArchiveComponent": {
-            "@id": "schema:ArchiveComponent"
-        },
-        "Dataset": {
-            "@id": "schema:Dataset"
-        },
         "about": {
             "@id": "schema:about"
         },
