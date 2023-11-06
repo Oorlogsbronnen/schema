@@ -35,17 +35,17 @@ niod:Monument a rdfs:Class ;
 
 niod:Archive a rdfs:Class ;
 	rdfs:label "Archief"@nl ;
-	rdfs:subClassOf schema:DataCatalog ;
+	rdfs:subClassOf schema:CreativeWork ;
 	rdf:comment "Class for an archive"@en .
 
 niod:ArchiveSeries a rdfs:Class ;
 	rdfs:label "Archiefreeks"@nl ;
-	rdfs:subClassOf schema:CreativeWorkSeries ;
+	rdfs:subClassOf niod:Archive ;
 	rdf:comment "Class for a collection of archival documents"@en .
 
 niod:ArchiveFile a rdfs:Class ;
 	rdfs:label "Archiefstuk"@nl ;
-	rdfs:subClassOf schema:CreativeWork ;
+	rdfs:subClassOf niod:Archive ;
 	rdf:comment "Class for archival documents"@en .
 
 niod:Certificate a rdfs:Class ;
