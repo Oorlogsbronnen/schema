@@ -1,11 +1,9 @@
 name: Generate documentation
-
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
 permissions:
   contents: read
   id-token: write
@@ -14,11 +12,9 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - uses: actions/checkout@v3
@@ -37,11 +33,11 @@ jobs:
       run: |
         python schema-docs/main.py --config $GITHUB_WORKSPACE/config.json
     - name: Upload docs as a github-pages artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v3
       with: 
         path: doc/
     - name: Archive documentation artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: generated-docs
         path: doc
@@ -54,4 +50,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
