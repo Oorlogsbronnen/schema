@@ -7,7 +7,9 @@
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "dc": "http://purl.org/dc/elements/1.1/",
         "dcmit": "http://purl.org/dc/dcmitype/",
-
+        "Thing": {
+            "@id": "schema:Thing"
+        },
         "contributor": {
             "@id": "dc:contributor"
         },
