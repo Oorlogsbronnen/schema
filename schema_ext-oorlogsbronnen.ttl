@@ -9,22 +9,50 @@
 ## Dutch labels for classes used in Oorlogsbronnen
 
 # Dutch labels for Objects
-	schema:CreativeWork rdfs:label "Object"@nl .
-	schema:Article rdfs:label "Artikel"@nl .
-	schema:Newspaper rdfs:label "Krant"@nl .
-	schema:Book rdfs:label "Boek"@nl .
-	schema:Photograph rdfs:label "Foto"@nl .
-	schema:VisualArtwork rdfs:label "Kunstwerk"@nl .
-	schema:VideoObject rdfs:label "Video"@nl .
-	schema:AudioObject rdfs:label "Audio"@nl .
-	schema:ImageObject rdfs:label "Afbeelding"@nl .
-	schema:Painting rdfs:label "Schilderij"@nl .
-	schema:Sculpture rdfs:label "Beeldhouwwerk"@nl .
-	schema:SheetMusic rdfs:label "Bladmuziek"@nl .
+schema:CreativeWork rdfs:label "Object"@nl .
+schema:Article rdfs:label "Artikel"@nl .
+schema:Newspaper rdfs:label "Krant"@nl .
+schema:Book rdfs:label "Boek"@nl .
+schema:Photograph rdfs:label "Foto"@nl .
+schema:VisualArtwork rdfs:label "Kunstwerk"@nl .
+schema:VideoObject rdfs:label "Video"@nl .
+schema:AudioObject rdfs:label "Audio"@nl .
+schema:ImageObject rdfs:label "Afbeelding"@nl .
+schema:Painting rdfs:label "Schilderij"@nl .
+schema:Sculpture rdfs:label "Beeldhouwwerk"@nl .
+schema:SheetMusic rdfs:label "Bladmuziek"@nl .
 
 # Dutch labels for Persons and places
-	schema:Person rdfs:label "Persoon"@nl .
-	schema:Place rdfs:label "Locatie"@nl .
+schema:Person rdfs:label "Persoon"@nl .
+schema:Place rdfs:label "Locatie"@nl .
+
+## Additional level of classes between CreativeWork and specific types
+niod:Afbeelding a rdfs:Class ;
+	rdfs:label "Monument"@nl ;
+	rdfs:subClassOf schema:CreativeWork ;
+	rdf:comment "Superclass of all collection objects with a visuel element."@en .
+
+schema:Photograph rdfs:subClassOf niod:Afbeelding .
+schema:ImageObject rdfs:subClassOf niod:Afbeelding .
+schema:VisualArtwork rdfs:subClassOf niod:Afbeelding .
+schema:SheetMusic rdfs:subClassOf niod:Afbeelding .
+niod:Bekendmaking rdfs:subClassOf niod:Afbeelding .
+
+niod:Archiefmateriaal a rdfs:Class ;
+	rdfs:label "Archiefmaterial"@nl ;
+	rdfs:subClassOf schema:CreativeWork ;
+	rdf:comment "Class for all archivematerial"@en .
+
+niod:Archive rdfs:subClassOf niod:Archiefmateriaal .
+niod:ArchiveSeries rdfs:subClassOf niod:Archiefmateriaal .
+niod:ArchiveFile rdfs:subClassOf niod:Archiefmateriaal .
+
+niod:Kranten a rdfs:Class ;
+	rdfs:label "Kranten"@nl ;
+	rdf:comment "Class for all newspaper related objects"@en .
+
+schema:Article rdfs:subClassOf niod:Kranten .
+schema:Newspaper rdfs:subClassOf niod:Kranten .
 
 ## Specific subclasses of schema:CreativeWork
 
