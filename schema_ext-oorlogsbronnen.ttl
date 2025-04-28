@@ -10,7 +10,7 @@
 
 # Dutch labels for Objects
 schema:CreativeWork rdfs:label "Object"@nl .
-schema:Article rdfs:label "Artikel"@nl .
+schema:Article rdfs:label "Krantartikel"@nl .
 schema:Newspaper rdfs:label "Krant"@nl .
 schema:Book rdfs:label "Boek"@nl .
 schema:Photograph rdfs:label "Foto"@nl .
