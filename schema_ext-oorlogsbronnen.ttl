@@ -28,7 +28,7 @@ schema:Place rdfs:label "Locatie"@nl .
 
 ## Additional level of classes between CreativeWork and specific types
 niod:Afbeelding a rdfs:Class ;
-	rdfs:label "Monument"@nl ;
+	rdfs:label "Afbeelding"@nl ;
 	rdfs:subClassOf schema:CreativeWork ;
 	rdf:comment "Superclass of all collection objects with a visuel element."@en .
 
