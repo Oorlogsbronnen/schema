@@ -10,7 +10,7 @@
 
 # Dutch labels for Objects
 schema:CreativeWork rdfs:label "Object"@nl .
-schema:Article rdfs:label "Krantartikel"@nl .
+schema:Article rdfs:label "Krantartikel"@nl . #TBD replace with schema:NewsArticle
 schema:Newspaper rdfs:label "Krant"@nl .
 schema:Book rdfs:label "Boek"@nl .
 schema:Photograph rdfs:label "Foto"@nl .
@@ -46,13 +46,6 @@ niod:Archiefmateriaal a rdfs:Class ;
 niod:Archive rdfs:subClassOf niod:Archiefmateriaal .
 niod:ArchiveSeries rdfs:subClassOf niod:Archiefmateriaal .
 niod:ArchiveFile rdfs:subClassOf niod:Archiefmateriaal .
-
-niod:Kranten a rdfs:Class ;
-	rdfs:label "Kranten"@nl ;
-	rdf:comment "Class for all newspaper related objects"@en .
-
-schema:Article rdfs:subClassOf niod:Kranten .
-schema:Newspaper rdfs:subClassOf niod:Kranten .
 
 ## Specific subclasses of schema:CreativeWork
 
