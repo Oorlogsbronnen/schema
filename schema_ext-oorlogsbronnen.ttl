@@ -1,3 +1,4 @@
+
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
@@ -73,6 +74,15 @@ niod:Certificate a rdfs:Class ;
   	rdfs:label "Akte"@nl ;
   	rdfs:subClassOf schema:CreativeWork ;
   	rdf:comment "Class for archival certificates"@en .
+
+## Curated content
+
+niod:Webpagina a rdfs:Class ;
+	rdfs:label "Webpagina"@nl ;
+	rdf:comment "Class for all web content created by Oorlogsbronnen"@en .
+
+schema:WebPage rdfs:subClassOf niod:Webpagina .
+skos:Concept rdfs:subClassOf niod:Webpagina . # hack to get all thesaurus content available as webpagina
 
 ## More specific classes of schema:Event
 
