@@ -170,8 +170,17 @@
     "Vrijgesteld": {
       "@id": "niod:Vrijgesteld"
     },
+     "PersonObservation": {
+      "@id": "picom:PersonObservation"
+    },
+     "PersonReconstruction": {
+      "@id": "picom:PersonReconstruction"
+    },
     "Entity": {
       "@id": "prov:Entity"
+    },
+    "ArchiveComponent": {
+      "@id": "schema:ArchiveComponent"
     },
     "AudioObject": {
       "@id": "schema:AudioObject"
