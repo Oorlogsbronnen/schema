@@ -4,7 +4,8 @@
 @prefix schema: <http://schema.org/> .
 @prefix niod: <https://data.niod.nl/> .
 @prefix edm: <http://www.europeana.eu/schemas/edm/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> 
+@prefix picom: <https://personsincontext.org/model#> .
 
 ### This file defines oorlogsbronnen specific classes and properties
 
@@ -27,6 +28,12 @@ schema:SheetMusic rdfs:label "Bladmuziek"@nl .
 # Dutch labels for Persons and places
 schema:Person rdfs:label "Persoon"@nl .
 schema:Place rdfs:label "Locatie"@nl .
+
+picom:PersonObservation a rdfs:Class ;
+    rdfs:label "Persoonsvermelding"@nl .
+    
+picom:PersonReconstruction a rdfs:Class ;
+    rdfs:label "Persoonsreconstructie"@nl .
 
 ## Additional level of classes between CreativeWork and specific types
 niod:Afbeelding a rdfs:Class ;
