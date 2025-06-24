@@ -29,12 +29,6 @@ schema:SheetMusic rdfs:label "Bladmuziek"@nl .
 schema:Person rdfs:label "Persoon"@nl .
 schema:Place rdfs:label "Locatie"@nl .
 
-picom:PersonObservation a rdfs:Class ;
-    rdfs:label "Persoonsvermelding"@nl .
-    
-picom:PersonReconstruction a rdfs:Class ;
-    rdfs:label "Persoonsreconstructie"@nl .
-
 ## Additional level of classes between CreativeWork and specific types
 niod:Afbeelding a rdfs:Class ;
 	rdfs:label "Afbeelding"@nl ;
@@ -419,3 +413,13 @@ niod:genoemde a rdf:Property ;
 niod:Rights a rdfs:Class ;
 	rdfs:label "Rechten"@nl ;
 	rdf:comment "Rights Statement"@en .
+
+## Classes for persons from Persons In Context
+
+picom:PersonObservation a rdfs:Class ;
+        rdfs:label "Persoonsvermelding"@nl ;
+        rdf:comment "Persoon zoals geobserveerd in een bron"@nl .
+    
+picom:PersonReconstruction a rdfs:Class ;
+        rdfs:label "Persoonsreconstructie"@nl ;
+        rdf:comment "Persoon gemodelleerd op basis van een of meer persoonsvermeldingen"@nl .
