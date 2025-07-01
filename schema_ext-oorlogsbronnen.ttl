@@ -408,6 +408,13 @@ niod:genoemde a rdf:Property ;
 	rdfs:subPropertyOf schema:actor ;
 	rdf:comment "Een persoon die genoemd wordt bij een bekendmaking"@nl .
 
+## Other NIOD properties
+
+niod:imageIIIF a rdf:Property ;
+	rdfs:label "IIIF Manifest"@nl ;
+	rdfs:subPropertyOf schema:image ;
+	rdf:comment "IIIF manifest van afbeeldingen die bij de bron beschikbaar zijn in IIIF formaat"@nl .
+
 ## Class for rights statements
 
 niod:Rights a rdfs:Class ;
