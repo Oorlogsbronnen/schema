@@ -42,7 +42,7 @@ schema:SheetMusic rdfs:subClassOf niod:Afbeelding .
 niod:Bekendmaking rdfs:subClassOf niod:Afbeelding .
 
 niod:Archiefmateriaal a rdfs:Class ;
-	rdfs:label "Archiefmaterial"@nl ;
+	rdfs:label "Archiefmateriaal"@nl ;
 	rdfs:subClassOf schema:CreativeWork ;
 	rdf:comment "Class for all archivematerial"@en .
 
