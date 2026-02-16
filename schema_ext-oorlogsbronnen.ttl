@@ -77,6 +77,16 @@ niod:Certificate a rdfs:Class ;
   	rdfs:subClassOf schema:CreativeWork ;
   	rdf:comment "Class for archival certificates"@en .
 
+niod:Interview a rdfs:Class ;
+	rdfs:label "Interview"@nl ;
+	rdfs:subClassOf schema:CreativeWork ;
+	rdf:comment "Class for interviews"@en .
+
+niod:InterviewSegment a rdfs:Class ;
+	rdfs:label "Fragment"@nl ;
+	rdfs:subClassOf schema:CreativeWork ;
+	rdf:comment "Class for interviews segments"@en .
+
 ## Curated content
 
 niod:Webpagina a rdfs:Class ;
